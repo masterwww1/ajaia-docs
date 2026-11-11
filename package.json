@@ -1,0 +1,40 @@
+{
+  "name": "ajaia-docs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "db:reset": "rm -f data/ajaia-docs.db data/ajaia-docs.db-shm data/ajaia-docs.db-wal"
+  },
+  "dependencies": {
+    "@tiptap/extension-placeholder": "^3.33.1",
+    "@tiptap/extension-underline": "^3.33.1",
+    "@tiptap/react": "^3.33.1",
+    "@tiptap/starter-kit": "^3.33.1",
+    "better-sqlite3": "^13.0.3",
+    "jose": "^6.2.17",
+    "marked": "^18.2.0",
+    "next": "16.4.6",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/turbopack": "4.3.3",
+    "@types/better-sqlite3": "^9.6.0",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.6",
+    "jsdom": "^31.0.0",
+    "tailwindcss": "4.3.3",
+    "typescript": "^5",
+    "vitest": "^3.2.4"
+  }
+}

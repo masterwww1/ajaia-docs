@@ -1,0 +1,13 @@
+services:
+  web:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      AUTH_SECRET: "ajaia-docs-compose-secret"
+      DATABASE_PATH: "/app/data/ajaia-docs.db"
+    volumes:
+      - ajaia-data:/app/data
+
+volumes:
+  ajaia-data:

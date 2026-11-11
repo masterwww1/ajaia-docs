@@ -1,0 +1,139 @@
+@import "tailwindcss";
+
+:root {
+  --ink: #14213d;
+  --ink-soft: #3a4660;
+  --paper: #f7f4ef;
+  --paper-strong: #fffdf9;
+  --line: #d9d2c5;
+  --accent: #0f6a5c;
+  --accent-soft: #d8efe9;
+  --danger: #9b2c2c;
+  --owned: #0f6a5c;
+  --shared: #1d4f91;
+  --shadow: 0 18px 50px rgba(20, 33, 61, 0.08);
+}
+
+@theme inline {
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-paper: var(--paper);
+  --color-paper-strong: var(--paper-strong);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-danger: var(--danger);
+  --font-sans: var(--font-ui);
+  --font-serif: var(--font-doc);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at top left, rgba(15, 106, 92, 0.08), transparent 28%),
+    linear-gradient(180deg, #efe9df 0%, var(--paper) 42%, #f3efe8 100%);
+  color: var(--ink);
+  font-family: var(--font-ui), system-ui, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+.ProseMirror {
+  outline: none;
+  min-height: 55vh;
+  font-family: var(--font-doc), Georgia, serif;
+  font-size: 1.125rem;
+  line-height: 1.7;
+  color: var(--ink);
+}
+
+.ProseMirror > * + * {
+  margin-top: 0.85rem;
+}
+
+.ProseMirror h1 {
+  font-size: 2.1rem;
+  line-height: 1.2;
+  margin: 1.4rem 0 0.7rem;
+}
+
+.ProseMirror h2 {
+  font-size: 1.55rem;
+  line-height: 1.25;
+  margin: 1.2rem 0 0.55rem;
+}
+
+.ProseMirror h3 {
+  font-size: 1.25rem;
+  line-height: 1.3;
+  margin: 1rem 0 0.45rem;
+}
+
+.ProseMirror ul,
+.ProseMirror ol {
+  padding-left: 1.4rem;
+}
+
+.ProseMirror ul {
+  list-style: disc;
+}
+
+.ProseMirror ol {
+  list-style: decimal;
+}
+
+.ProseMirror p.is-editor-empty:first-child::before {
+  color: #8b8478;
+  content: attr(data-placeholder);
+  float: left;
+  height: 0;
+  pointer-events: none;
+}
+
+.toolbar-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2rem;
+  height: 2rem;
+  padding: 0 0.55rem;
+  border: 1px solid transparent;
+  border-radius: 0.45rem;
+  background: transparent;
+  color: var(--ink-soft);
+  cursor: pointer;
+}
+
+.toolbar-btn:hover {
+  background: rgba(20, 33, 61, 0.05);
+}
+
+.toolbar-btn.is-active {
+  background: var(--accent-soft);
+  color: var(--accent);
+  border-color: rgba(15, 106, 92, 0.18);
+}
+
+.toolbar-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}

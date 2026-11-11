@@ -1,0 +1,10 @@
+Walkthrough video URL:
+TBD — record a 3–5 minute Loom/YouTube (unlisted) covering:
+
+1. Login as Alice and open/edit a document (formatting + autosave)
+2. Import samples/meeting-notes.md
+3. Share with Bob (editor) and Carol (viewer)
+4. Switch users to show owned vs shared + permission differences
+5. What was deprioritized and how AI helped
+
+Replace this line with the final unlisted URL before submitting.
