@@ -11,6 +11,7 @@
 - [x] `WALKTHROUGH_VIDEO.txt` — walkthrough video URL
 - [x] `samples/meeting-notes.md` — import demo file
 - [x] Automated tests (`npm test`)
+- [x] Screenshots in `screenshots/` (dashboard + editor)
 
 ## Live product
 

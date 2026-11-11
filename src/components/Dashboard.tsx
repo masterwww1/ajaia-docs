@@ -103,9 +103,10 @@ export function Dashboard({ user, owned, shared }: Props) {
             ref={fileRef}
             type="file"
             accept=".txt,.md,.markdown,text/plain,text/markdown"
-            className="hidden"
+            hidden
             onChange={(e) => onImport(e.target.files?.[0])}
           />
+
         </div>
       </div>
 
