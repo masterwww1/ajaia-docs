@@ -14,9 +14,11 @@
 
 ## Live product
 
-- **URL:** see `DEPLOYMENT.md` (fill after deploy)
+- **URL:** https://springs-complex-duration-tom.trycloudflare.com
+- **Source:** https://github.com/masterwww1/ajaia-docs
 - **Demo login:** `alice@ajaia.dev` / `password`
 - **Sharing demo:** also try `bob@ajaia.dev` and `carol@ajaia.dev` / `password`
+- **Details:** `DEPLOYMENT.md`
 
 ## Working
 

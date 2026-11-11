@@ -55,7 +55,10 @@ A sample Markdown file is in `samples/meeting-notes.md`.
 
 ## Live deployment
 
-See `DEPLOYMENT.md` and `SUBMISSION.md` for the live URL, credentials, and review notes.
+- **App:** https://springs-complex-duration-tom.trycloudflare.com
+- **Source:** https://github.com/masterwww1/ajaia-docs
+
+See `DEPLOYMENT.md` and `SUBMISSION.md` for credentials and review notes.
 
 ## Project docs
 
