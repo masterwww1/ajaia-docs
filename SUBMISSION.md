@@ -15,7 +15,7 @@
 
 ## Live product
 
-- **URL:** https://springs-complex-duration-tom.trycloudflare.com
+- **URL:** https://doctor-object-carlos-indicates.trycloudflare.com
 - **Source:** https://github.com/masterwww1/ajaia-docs
 - **Demo login:** `alice@ajaia.dev` / `password`
 - **Sharing demo:** also try `bob@ajaia.dev` and `carol@ajaia.dev` / `password`
